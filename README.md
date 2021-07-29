@@ -1,7 +1,7 @@
 # Wakeup-Clock
 ESP8266 Powered Wake Up Clock for Children
 ## Overview
-My kids wakeup clock broke (started turning on lights at wrong time), so instead of buying a new one I made one. Because I didn't want to keep printed new cases for the clock (as their tastes changed) I decided to incorporate lego into the base so they can decorate as they like. The basic operation can be seen in the gif, but here is an overview.
+My kids wakeup clock broke (started turning on lights at wrong time), so instead of buying a new one I made one. Because I didn't want to keep printed new cases for the clock (as their tastes changed) I decided to incorporate lego into the base so they can decorate as they like. The basic operation can be seen in the gif (sorry it's not very good), but here is an overview.
 * Web interface for setup of times (so I don't have to change code)
 * Get time from the internet so on a power failure it will be correct. The system also updates the time nightly to capture daylight savings
 * "night time" light turns on for 1 hour starting at when I want my kids to go to sleep
