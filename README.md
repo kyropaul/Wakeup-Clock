@@ -8,6 +8,7 @@ My kids wakeup clock broke (started turning on lights at wrong time), so instead
 * "night time" light also turns back on 1 hour before they can wake up
 * "soft-wake" light comes on when they can get up but should be quiet and not wake me up
 * "wake up" light will come on when it's ok to wake me up
+* Working on a newer version that uses (https://github.com/tzapu/WiFiManager) to allow a user to configure the wifi instead of hardcoded, but that's not completed as it doesn't work with the async sever
 ## Required ESP Libraries
 Download and install these into your arduino software
 https://github.com/me-no-dev/ESPAsyncWebServer
