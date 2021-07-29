@@ -13,7 +13,8 @@ My kids wakeup clock broke (started turning on lights at wrong time), so instead
 Download and install these into your arduino software
 https://github.com/me-no-dev/ESPAsyncWebServer
 
-https://github.com/me-no-dev/ESPAsyncWebServer
+https://github.com/me-no-dev/ESPAsyncTCP
+
 ## Hardware
 * ESP8266 NODEMCU board (I went with these but any should work https://www.amazon.ca/gp/product/B08C52BCZQ/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1)
 * 3x LED (I used a green, yellow, and blue)
