@@ -20,6 +20,15 @@ https://github.com/me-no-dev/ESPAsyncWebServer
 * 6x10 lego board
 ## 3D Printed Parts
 * See stl directory for file list
+## Basic Process
+After start up the ESP loops every 10 seconds and goes through the following steps
+1. Read a couple files from spiffs containing the variables
+2. If the time is 2:24am refresh the time clock (this sets a temporary variable that is reset after 2:24 so it only updates once)
+3. Get time using <time.h> and convert the current time to minutes past midnight
+4. If statement to determine if it is between one of the important time ranges
+5. Turn on or off lights as appropriate
+
+The Web portal is an asynchronous website that <ESPAsyncTCP.h> and <ESPAsyncWebServer.h>. When you hit it you can save a new value.
 ## Projects used to create this
 * Turning LED on and OFF by time of day (https://github.com/jumejume1/NodeMCU_ESP8266/blob/master/TURNON_OFF_WITH_TIME/TURNON_OFF_WITH_TIME.ino)
 * Automatically getting daylight savings (https://werner.rothschopf.net/202011_arduino_esp8266_ntp_en.htm)
