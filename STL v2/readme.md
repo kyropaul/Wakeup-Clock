@@ -1,0 +1,1 @@
+Version 1 files proved to be a bit hard to print well and when knocked off the table were not very strong. I redesigned the case to be based on my other project (weather stations) as it's easier to print and a but more stable.
